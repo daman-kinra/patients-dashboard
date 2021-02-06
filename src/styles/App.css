@@ -8,7 +8,22 @@
 body {
   background-color: #cfcfcd;
 }
+/* width */
 ::-webkit-scrollbar {
-  width: 0px; /* Remove scrollbar space */
-  background: transparent; /* Optional: just make scrollbar invisible */
+  width: 13px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f8f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(110, 110, 110);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(160, 158, 158);
 }
