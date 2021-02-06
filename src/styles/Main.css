@@ -1,8 +1,9 @@
 .main_container {
   background-color: #dfdede;
-  height: 100vh;
+  height: 100%;
   margin-top: 20px;
   display: flex;
+  padding-bottom: 40px;
 }
 .patients {
   flex: 20%;
@@ -81,6 +82,8 @@ img {
 }
 .patients_info {
   flex: 80%;
+  display: flex;
+  flex-direction: column;
 }
 .user_img img {
   height: 60px;
@@ -100,7 +103,9 @@ img {
   display: flex;
   height: 250px;
   font-size: 13px;
+  flex: 0.4;
 }
+
 .details {
   width: 100%;
 }
@@ -134,13 +139,16 @@ img {
   padding-bottom: 10px;
 }
 .data1 .keys {
-  width: 90px !important;
+  width: 70px !important;
 }
 .data2 .keys {
   width: 100px !important;
 }
 .data3 .keys {
-  width: 90px !important;
+  width: 170px !important;
+}
+.data3 .values {
+  width: 150px !important;
 }
 .data4 {
   display: flex;
@@ -161,4 +169,69 @@ img {
   font-weight: bold;
   color: #fff;
   margin-bottom: 0;
+}
+.secondary_data {
+  flex: 0.6;
+  background-color: #fff;
+  position: relative;
+  border-radius: 5px;
+}
+.navigations {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  top: -16%;
+  display: flex;
+}
+.navigations div {
+  width: 100px;
+  text-align: center;
+  font-size: 13px;
+  margin-right: 3px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: normal;
+}
+.first {
+  margin-left: 60px;
+  color: #00a0f0;
+}
+.last {
+  width: 180px !important;
+}
+.comments {
+  font-size: 13px;
+  height: 100%;
+  width: 50%;
+  margin-left: 60px;
+}
+.comment_1,
+.comment_2,
+.comment_3 {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.comment_1 {
+  margin-top: 30px;
+}
+.ques {
+  background-color: #e8f5fe;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+.ans {
+  padding-left: 10px;
+  min-height: 30px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(223, 222, 222);
+}
+.long {
+  padding-bottom: 8px;
+  padding-top: 6px;
+  padding-right: 10px;
 }
